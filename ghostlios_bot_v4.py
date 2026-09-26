@@ -315,7 +315,7 @@ T = {
 
 # ── BANNER PATH ──────────────────────────────────────
 import os
-BANNER_PATH = os.path.expanduser("~/Ghost.png")
+BANNER_PATH = "Ghost.png"
 
 # ── /start → BANNER + LANGUAGE SELECT ────────────────
 @bot.message_handler(commands=['start'])
